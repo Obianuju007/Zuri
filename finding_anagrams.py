@@ -4,10 +4,17 @@
 # find_anagrams("racecar") --> True
 
 
-from audioop import reverse
+# from audioop import reverse
 
+def isAnagram(a, b):
+    a_list = list(a)
+    b_list = list(b)
+    if (a_list.sort() == b_list.sort()):
+        print('True')
+    else:
+        print('False')
 
-def find_anagrams(x):
+def is_palindrome(x):
     # [assignment] Add your code here
     if (x[::-1] == x):
         print('True')
@@ -17,6 +24,9 @@ def find_anagrams(x):
     
 
 
-find_anagrams('racecar')
-find_anagrams('mallam')
-find_anagrams('house')
+is_palindrome('racecar')
+is_palindrome('mallam')
+is_palindrome('house')
+xxx = ['stop']
+yyy = ['tops']
+isAnagram(xxx,yyy)
