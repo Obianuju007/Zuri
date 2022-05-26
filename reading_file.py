@@ -14,7 +14,7 @@ def count_words(text):
     text = read_file_content(text)
     # [assignment] Add your code here
     char_punct = text.translate(str.maketrans('','', string.punctuation))
-    line = char_punct.strip().lower().split(" ")
+    line = char_punct.lower().split(" ")
     for newWord in line: 
         if newWord in d:
             d[newWord] = d[newWord] + 1
