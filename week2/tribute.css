@@ -1,0 +1,37 @@
+body {
+    background-color: bisque;
+}
+
+.main {
+    text-align: center;
+}
+
+.tab1 {
+    display: grid;
+    /* grid-gap: 2px; */
+    grid-template-columns: reapeat(auto-fill, minmax(350px, 1fr));
+}
+
+figure {
+    float: left;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(190, 140, 188);
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    position: static;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}

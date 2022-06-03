@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 8%;
+}
+
+.container {
+    display: inline-block;
+}
+
+.studentData {
+    border-collapse: collapse;
+    align-self: center;
+}
+
+.hue {
+    background-color: rgb(241, 210, 107);
+}
+
+.hueShade {
+    background-color: rgba(228, 221, 235, 0.911);
+}
+
+.shade {
+    background-color: rgba(167, 100, 230, 0.349);
+}
+
+#head1 {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: thistle;
+    border: 1px dashed black;
+    border-bottom: 0px;
+}
