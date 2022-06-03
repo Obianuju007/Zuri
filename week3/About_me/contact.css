@@ -1,0 +1,79 @@
+.container {
+    display: block;
+    background-image: url(new_hello.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2px);
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 10px 0 #221f1f;
+    border-radius: 5px;
+}
+
+header {
+    /* display: block; */
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.position {
+    margin: auto;
+}
+
+.container input {
+    height: 25px;
+    width: 350px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+    background: rgba(0, 0, 0, 0.507);
+}
+
+.container input:hover {
+    background-color: rgba(171, 133, 179, 0.418);
+    border: none;
+}
+
+.position .msg {
+    width: 350px;
+    height: 150px;
+    backdrop-filter: blur(2px);
+    background: rgba(0, 0, 0, 0.507);
+    outline: none;
+    border: none;
+    text-align: start;
+}
+
+.position .msg:hover {
+    background-color: rgba(171, 133, 179, 0.418);
+    border: none;
+}
+
+#type1 {
+    background-color: rgba(0, 0, 0, 0.507);
+    margin: 15px;
+    height: 30px;
+    /* text-align: center; */
+    font-size: large;
+}
+
+#type1:hover {
+    background-color: rgba(171, 133, 179, 0.904);
+}
+
+footer {
+    text-align: center;
+}
+
+form a h5 {
+    margin-top: auto;
+    /* text-decoration: none; */
+}
