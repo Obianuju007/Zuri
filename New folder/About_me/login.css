@@ -1,0 +1,59 @@
+.logincontainer {
+    display: block;
+    border: 1px black;
+    background-image: url(new_hello.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #554f4f;
+}
+
+.logincontainer input {
+    background-color: rgba(216, 183, 214, 0.432);
+    padding: 10px;
+    width: 85%;
+    margin: 10px;
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.logincontainer input:hover {
+    background-color: rgba(216, 183, 214, 0.815);
+    outline: none;
+    border: none;
+}
+
+.logincontainer a {
+    text-decoration: none;
+}
+
+.logincontainer a:hover {
+    color: rgba(236, 92, 116, 0.836);
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+#typex {
+    margin: 20px;
+    height: 40px;
+    width: 80%;
+    font-weight: bold;
+}
+
+#typex:hover {
+    background-color: rgba(216, 183, 214, 0.836);
+}
