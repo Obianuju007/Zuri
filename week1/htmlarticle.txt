@@ -1,0 +1,93 @@
+HTML Semantics
+	What comes to mind when one hears the acronym 'HTML'? I can imagine its usually programming or coding or whatever name one can use to define it. Well, as the name implies, html is a combination of Hypertext and Markup language used to describe the contents of web pages basically. The Hypertext defines the link between the pages and markup language. its main file in any project is usually "index.html".
+	For any beginner who wants to know what it takes to create a website has the option of using html which is browser friendly. Almost all websites worldwide were created using HTML as the bedrock framework, a few examples include: social media blogs, e-commerce websites, portfolio websites and so much more.
+	When we hear the word 'semantics' in html it simply means the tags that provide meaning to an HTML page rather that just presentation. It makes the page more comprehensible by better defining the different sections and layers of web pages. its core characteristic is to clearly communicate its content to both the developer and the browser. Its structure is in the format:
+1	header: defines the header for a web page.
+2.	nav: defines a container for navigation links.
+3.	section: defines a section in a web page.
+4.	article: This element contains the main part, containing information about the web page.
+5.	aside: holds the content aside of the content it is placed in (like a sidebar).
+6.	footer: defines the footer for a document or a section.
+7.	details: it specifies the tag for additional details.
+8.	main: this specifies the main page content and should be unique.
+9.	summary: this specifies a header for the 'details' element.
+10.	mark: this specifies the text that is highlighted.
+
+HTML Tags
+There are so many HTML tags out there and we are going to briefly explain forty(40). It is important to know that we would be classifying them into two categories and they are:
+a.	Container tags
+b.	Empty or Self-closing tags or Void tags
+
+
+Container tags
+<html> </html>	Opens and closes an html document.
+
+<head> </head>	Used to provide information about the document for use primarily by search engines and browsers.
+
+<title> </title>	Usually nested in the head section. shows the title of the document.
+
+<body> </body> The second of two main sections of an html document. Contains all the content of the web page.
+
+<h1> to <h6> </h1> to </h6>	Headings. h1 is the main heading, h2 is secondary.
+
+<p> </p>	Paragraph
+
+<div> </div>	 A container for a block of content.
+
+<span></span>	A container for in-line content, such as content inside a paragraph.
+
+<em> </em>	Gives the contained text emphasis (usually as italics).
+
+<strong> </strong>	Makes the contained text bold.
+
+<a href="document location"> </a>	link to another document.
+
+<ol> </ol>	Ordered (numbered) list.
+
+<ul> </ul>	Unordered (bulleted) list.
+
+<li> </li>	List item must be nested inside a list element such as a <ol> or <ul>.
+
+<!--  -->	Comment. Anything between these tags is not displayed on the screen.
+
+<nav> </nav>	Contains navigation content such as a website navigation menu.
+
+<table> </table>	Adds a table.
+
+<tr> </tr>	Table row (start & end). 
+
+<th> </th>	Usually used to differentiate the first row or column of cells as heading cells for all the other cells in the same column or row.
+
+<td> </td>	When its scope is colspan= "number", spans cells across multiple columns, when it is rowspan="number" spans cells across multiple rows.
+ 
+
+Empty Tags
+<br> 	Used for line break in a text.
+
+<img src="image location" alt="alternate text">	Embed an image into the webpage document.
+
+<area>	Used to map a portion of an image to make it clickable by the end-user. It is used to direct the user to different links after the user clicks on the mapped portions of the image. It is used as a child tag of the <map> element.
+
+<base>	For all relative URLs in a document, the base URL is specified to use with the <base> tag. Only one <base> element can be used in a document.
+
+<col>	Used to set the column properties for each column within a <colgroup> tag. This tag is used to set the style property to each column.
+
+<embed>	Used for embedding external applications which are generally multimedia content like audio or video into an html document. It is used as a container for embedding plug-ins such as flash animations.
+
+<hr>	Horizontal line.
+
+<input>	Used to create interactive controls for web-based applications and forms, for accepting the information such as an address, name, phone number, email etc. depending on a variety of types of input data and control widgets are available.
+
+<keygen>
+
+<link>	links to another webpage.
+
+<meta>	Used to represent metadata, i.e information of a information.
+
+<param>	Used to define a parameter for plug-ins which is associated with <object> element. 
+
+<source>	Provides various media resources for the <image>, <audio> or <video> elements. It provides the same media material in several file formats to ensure compatibility with a wide variety of browsers.
+
+<track>		Used as a child of the audio and video media components. It allows one to define timed text tracks (or time-based data), for example, to handle subtitles automatically.
+
+<wbr>	Used for word break opportunity and is used to define the position within the text which is treated as a line break by the browser.

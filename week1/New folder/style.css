@@ -1,0 +1,9 @@
+body {
+    display: block;
+    background-color: beige;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 20px;
+    text-align: center;
+    padding: 3rem;
+    margin: 0 auto;
+}
